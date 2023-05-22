@@ -1,0 +1,61 @@
+    #main_sec {
+        width: 90%;
+        margin: auto;
+        padding: 3rem 0rem;
+        p {
+            font-weight: 300;
+            font-size: 16px;
+            color: rgb(110, 136, 172);
+        }
+        #timer {
+            width: 500px;
+            height: 110px;
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+            // border-radius: 5px;
+            background: linear-gradient(to bottom, #003366, #000066);
+            color: white;
+        }
+    }
+    
+    @include sm-tablet {
+        #main_sec {
+            // background-color: red;
+            #timer {
+                width: 450px;
+                height: 110px;
+            }
+        }
+    }
+    
+    @include mobile {
+        #main_sec {
+            // background-color: red;
+            #timer {
+                width: 400px;
+                height: 100px;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    
+    @include sm-mobile {
+        #main_sec {
+            // background-color: red;
+            h3 {
+                font-size: 1.65rem;
+            }
+            h4 {
+                padding-top: 0px;
+                font-size: 1.1rem;
+            }
+            #timer {
+                width: 320px;
+                height: 70px;
+                font-size: 1.1rem;
+            }
+        }
+    }

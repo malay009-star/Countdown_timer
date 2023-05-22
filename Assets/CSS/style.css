@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+*,
+::after,
+::before {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Poppins, sans-serif;
+}
+
+#main_sec {
+  width: 90%;
+  margin: auto;
+  padding: 3rem 0rem;
+}
+#main_sec p {
+  font-weight: 300;
+  font-size: 16px;
+  color: rgb(110, 136, 172);
+}
+#main_sec #timer {
+  width: 500px;
+  height: 110px;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background: linear-gradient(to bottom, #003366, #000066);
+  color: white;
+}
+
+@media (max-width: 750px) {
+  #main_sec #timer {
+    width: 450px;
+    height: 110px;
+  }
+}
+@media (max-width: 500px) {
+  #main_sec #timer {
+    width: 400px;
+    height: 100px;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 450px) {
+  #main_sec h3 {
+    font-size: 1.65rem;
+  }
+  #main_sec h4 {
+    padding-top: 0px;
+    font-size: 1.1rem;
+  }
+  #main_sec #timer {
+    width: 320px;
+    height: 70px;
+    font-size: 1.1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
