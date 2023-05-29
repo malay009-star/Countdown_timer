@@ -19,9 +19,9 @@ body {
   padding: 3rem 0rem;
 }
 #main_sec p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
-  color: rgb(110, 136, 172);
+  color: #313961;
 }
 #main_sec #timer {
   width: 500px;
@@ -31,7 +31,9 @@ body {
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  background: linear-gradient(to bottom, #003366, #000066);
+  background-color: #171e3f;
+}
+#main_sec #timer h1 {
   color: white;
 }
 

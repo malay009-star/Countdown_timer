@@ -3,9 +3,9 @@
         margin: auto;
         padding: 3rem 0rem;
         p {
-            font-weight: 300;
+            font-weight: 400;
             font-size: 16px;
-            color: rgb(110, 136, 172);
+            color: #313961;
         }
         #timer {
             width: 500px;
@@ -16,8 +16,10 @@
             justify-content: space-around;
             text-align: center;
             // border-radius: 5px;
-            background: linear-gradient(to bottom, #003366, #000066);
-            color: white;
+            background-color: #171e3f;
+            h1 {
+                color: white;
+            }
         }
     }
     
