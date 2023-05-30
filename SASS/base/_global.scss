@@ -36,8 +36,14 @@ body {
     }
 }
 
-@mixin sm-mobile {
+@mixin md-mobile {
     @media (max-width: 450px) {
+        @content;
+    }
+}
+
+@mixin sm-mobile {
+    @media (max-width: 350px) {
         @content;
     }
 }

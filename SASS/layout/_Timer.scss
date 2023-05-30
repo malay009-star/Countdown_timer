@@ -44,7 +44,7 @@
         }
     }
     
-    @include sm-mobile {
+    @include md-mobile {
         #main_sec {
             // background-color: red;
             h3 {
@@ -58,6 +58,24 @@
                 width: 320px;
                 height: 70px;
                 font-size: 1.1rem;
+            }
+        }
+    }
+    
+    @include sm-mobile {
+        #main_sec {
+            // background-color: red;
+            h3 {
+                font-size: 1.6rem;
+            }
+            h4 {
+                font-size: 1.05rem;
+            }
+            p {
+                font-size: 15px;
+            }
+            #timer {
+                width: 295px;
             }
         }
     }

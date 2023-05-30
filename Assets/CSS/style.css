@@ -64,5 +64,19 @@ body {
     font-size: 1.1rem;
   }
 }
+@media (max-width: 350px) {
+  #main_sec h3 {
+    font-size: 1.6rem;
+  }
+  #main_sec h4 {
+    font-size: 1.05rem;
+  }
+  #main_sec p {
+    font-size: 15px;
+  }
+  #main_sec #timer {
+    width: 295px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
